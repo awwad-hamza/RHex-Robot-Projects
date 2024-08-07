@@ -15,13 +15,13 @@ We worked together to integrate the YOLOv8 human detection model with the RHex r
 This integration aimed to enhance the robot's ability to identify and respond to human presence in a simulated setting, crucial for applications such as search and rescue operations, environmental surveillance, and exploratory missions.
 
 #### Android GUI for RHex Robot Simulation Control
-The duo developed an intuitive Android interface to control the RHex robot simulation. Key aspects of this project included:
+We developed an intuitive Android interface to control the RHex robot simulation. Key aspects of this project included:
 - Establishing a communication link between the Android device and the host PC running the RHex simulation.
 - Enabling users to control and monitor the robot via a mobile device.
 - Extending the interface to control the actual RHex robot, demonstrating its applicability beyond the simulation environment.
 
 #### Integration of pyRhexAPI Using PyBind in the Android GUI
-They utilized PyBind to create Python bindings for the existing C++ codebase of the RHex simulation. This facilitated the seamless interaction between the Python-driven Flask server and the Android GUI, improving the efficiency and simplicity of the communication process.
+We utilized PyBind to create Python bindings for the existing C++ codebase of the RHex simulation. This facilitated the seamless interaction between the Python-driven Flask server and the Android GUI, improving the efficiency and simplicity of the communication process.
 
 ## Acknowledgments
 
