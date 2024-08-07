@@ -1,0 +1,45 @@
+{
+    "name": "RHex ROS2 Development Container",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": "../.."
+    },
+    "runArgs": ["--network", "host"],
+    "containerEnv": {
+        "DISPLAY": "${env:DISPLAY}",
+        "NVIDIA_VISIBLE_DEVICES": "all",
+        "NVIDIA_DRIVER_CAPABILITIES": "all"
+    },
+
+    "workspaceMount": "source=${localWorkspaceFolder},target=/home/rhex/mnt,type=bind,consistency=cached",
+    "workspaceFolder": "/home/rhex/mnt/rhex_ws",
+
+    "privileged": true,
+
+    "mounts": [
+       "source=/tmp/.X11-unix,target=/tmp/.X11-unix,type=bind,consistency=cached"
+    ],
+
+    "appPort": [
+        5000,
+        5001
+    ],
+
+    "otherPortsAttributes": {
+        "onAutoForward": "ignore"
+    },
+
+    "appPort": [5000],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools",
+                "ms-vscode.cpptools-extension-pack",
+                "donjayamanne.python-extension-pack",
+                "ms-iot.vscode-ros"
+            ]
+        }
+    },
+
+    "postCreateCommand": "chmod +x ../scripts/* && ../scripts/build_workspace.sh && echo 'export PATH=$PATH:/home/rhex/mnt/scripts/' >> ~/.bashrc"
+}
