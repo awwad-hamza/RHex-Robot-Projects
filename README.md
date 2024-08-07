@@ -2,6 +2,26 @@
 # RHex-Robot-Projects
 
 This repository contains collaborative work from our internship at Teknolus. We integrated YOLOv8 with ROS2 for real-time human detection and developed an Android GUI for RHex robot control. Our work builds upon publicly available code from Teknolus Energy's repository.
+### Collaborative Work Between Leen Said and Hamza Awad
+
+This repository is a result of the collaborative efforts of Leen Said and Hamza Awad during their internship at Teknolus. The projects undertaken focused on integrating advanced machine learning algorithms with robotic systems and developing user interfaces for enhanced robot control.
+
+#### YOLOv8 Human Detection with RHex Simulation
+We worked together to integrate the YOLOv8 human detection model with the RHex robot simulation using ROS2. This project involved:
+- Training the YOLOv8 model to detect humans.
+- Embedding the trained model within a ROS2 simulation environment.
+- Enabling real-time human detection and localization by the RHex robot.
+
+This integration aimed to enhance the robot's ability to identify and respond to human presence in a simulated setting, crucial for applications such as search and rescue operations, environmental surveillance, and exploratory missions.
+
+#### Android GUI for RHex Robot Simulation Control
+The duo developed an intuitive Android interface to control the RHex robot simulation. Key aspects of this project included:
+- Establishing a communication link between the Android device and the host PC running the RHex simulation.
+- Enabling users to control and monitor the robot via a mobile device.
+- Extending the interface to control the actual RHex robot, demonstrating its applicability beyond the simulation environment.
+
+#### Integration of pyRhexAPI Using PyBind in the Android GUI
+They utilized PyBind to create Python bindings for the existing C++ codebase of the RHex simulation. This facilitated the seamless interaction between the Python-driven Flask server and the Android GUI, improving the efficiency and simplicity of the communication process.
 
 # RHex Educational - ROS2 and Gazebo Based Development Environment
 
