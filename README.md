@@ -23,6 +23,12 @@ The duo developed an intuitive Android interface to control the RHex robot simul
 #### Integration of pyRhexAPI Using PyBind in the Android GUI
 They utilized PyBind to create Python bindings for the existing C++ codebase of the RHex simulation. This facilitated the seamless interaction between the Python-driven Flask server and the Android GUI, improving the efficiency and simplicity of the communication process.
 
+## Acknowledgments
+
+We would like to acknowledge the original repository from Teknolus Energy, upon which this project builds. Their foundational work has been crucial in the development of our enhancements and modifications.
+
+Original Repository: [Teknolus Energy's Repository](https://github.com/teknolus/rhex_edu)
+
 # RHex Educational - ROS2 and Gazebo Based Development Environment
 
 <p style="color:red;">
