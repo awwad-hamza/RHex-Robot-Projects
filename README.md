@@ -151,6 +151,11 @@ You can also use the command from `bringup` package to run the above commands at
 ```
 ros2 launch rhex_bringup bringup_simulation_gui.launch.py
 ```
+### To Explore YOLOv8 Implementation
+[Link to Subdirectory README](https://github.com/leenslf/RHex-Robot-Projects/blob/main/rhex_ws/src/rhex_yolo_detector/README.md)
+
+### To Control Using Android
+[Link to Subdirectory README](https://github.com/leenslf/RHex-Robot-Projects/blob/main/rhex_ws/src/gui_controls/README.md)
 
 ### Explore and Modify
 - **rhex_gazebo** directory contains gazebo related files and worlds check README.md inside that folder.
