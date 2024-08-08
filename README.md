@@ -4,7 +4,7 @@
 This repository contains collaborative work from our internship at Teknolus. We integrated YOLOv8 with ROS2 for real-time human detection and developed an Android GUI for RHex robot control. Our work builds upon publicly available code from Teknolus Energy's repository.
 ### Collaborative Work Between [Leen Said](https://github.com/leenslf) and [Hamza Awwad](https://github.com/awwad-hamza)
 
-This repository is a result of the collaborative efforts of Leen Said and Hamza Awad during their internship at Teknolus. The projects undertaken focused on integrating advanced machine learning algorithms with robotic systems and developing user interfaces for enhanced robot control.
+This repository is a result of the collaborative efforts of Leen Said and Hamza Awwad during their internship at Teknolus. The projects undertaken focused on integrating advanced machine learning algorithms with robotic systems and developing user interfaces for enhanced robot control.
 
 #### YOLOv8 Human Detection with RHex Simulation
 We worked together to integrate the YOLOv8 human detection model with the RHex robot simulation using ROS2. This project involved:
